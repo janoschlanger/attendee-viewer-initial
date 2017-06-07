@@ -1,0 +1,10 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    instances: 1
+    memory: 1G
+    name: attendee-viewer
+    random-route: true
+    services:
+      - central-config
