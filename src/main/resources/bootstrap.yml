@@ -14,3 +14,7 @@ management:
 security:
   basic:
     enabled: false
+
+feign:
+  hystrix:
+    enabled: true
