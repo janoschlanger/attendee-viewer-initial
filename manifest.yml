@@ -8,3 +8,6 @@ applications:
     random-route: true
     services:
       - central-config
+    env:
+      CLIENT_ID: 90896872555b635b25d6
+      CLIENT_SECRET: cdf794775c3c90b1b135c54b631016a406d6975b
